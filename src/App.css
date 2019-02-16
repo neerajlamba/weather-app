@@ -142,19 +142,20 @@ button:active {
 @media screen and (max-width: 700px) {
   .title-container{ 
     margin-top : 5%; 
-    height: 30vh;
+    height: 20vh;
     width: 80%;
     margin-left: 5vh;
     margin-right: 5vh;
   }
   .form-container {
-    height: 90vh;
+    height: 75vh;
+    padding-top : 50px;
     width : 80%;
     margin-left: 5vh;
     margin-right: 5vh;
     margin-bottom: 5%;
     border-bottom-right-radius: 0%;
-  border-top-right-radius: 0%;
+    border-top-right-radius: 0%;
   }
   .wrapper{
       height: 100%;
@@ -162,10 +163,11 @@ button:active {
 
   input[type="text"]{
       width: 40%;
+      text-transform: capitalize;
   }
 
   button{
-      margin: 0 auto;
+      margin : 0 auto;
   }
 
   .weather__info{
